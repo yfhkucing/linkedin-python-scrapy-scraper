@@ -2,7 +2,7 @@ import scrapy
 
 class LinkedJobsSpider(scrapy.Spider):
     name = "linkedin_jobs"
-    api_url = 'https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=python&location=United%2BStates&geoId=103644278&trk=public_jobs_jobs-search-bar_search-submit&start=' 
+    api_url = 'https://play.google.com/log?format=json&hasfast=true&authuser=' 
 
     def start_requests(self):
         first_job_on_page = 0
